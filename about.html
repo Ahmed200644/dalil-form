@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plans</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="p-relative txt-c mt-0">
+          <img class="logo" src="imgs/logo.png" alt="" />
+        </h3>
+        <ul>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="index.html"
+            >
+              <img
+                class="icon"
+                width="30px"
+                height="30px"
+                src="https://img.icons8.com/ios-filled/50/programming-flag.png"
+                alt="Programming Fundamentals"
+              />
+              <span>Programming Fundamentals</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="language.html"
+            >
+              <img
+                class="icon"
+                width="30px"
+                height="30px"
+                src="https://img.icons8.com/ios/50/c-plus-plus-logo.png"
+                alt="programming language"
+              />
+              <span>Programming Languages</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="front.html"
+            >
+              <img
+                class="icon"
+                width="30px"
+                height="30px"
+                src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-front-end-ux-and-ui-icons-flaticons-lineal-color-flat-icons.png"
+                alt="Front-End"
+              />
+              <span>Front-End</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="back.html"
+            >
+              <img
+                class="icon"
+                width="30px"
+                height="30px"
+                src="https://img.icons8.com/wired/64/php-logo.png"
+                alt="Back-End"
+              />
+              <span>Back-End</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="data.html"
+            >
+              <img
+                class="icon"
+                width="30px"
+                height="30px"
+                src="https://img.icons8.com/external-smashingstocks-thin-outline-smashing-stocks/67/external-Engineering-Report-engineering-smashingstocks-thin-outline-smashing-stocks.png"
+                alt="Data-Science"
+              />
+              <span>Data-Science</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="cyber.html"
+            >
+              <img
+                class="icon"
+                width="30px"
+                height="30px"
+                src="https://img.icons8.com/dotty/80/cyber-security.png"
+                alt="Cyber Security"
+              />
+              <span>Cyber Security</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="AI.html"
+            >
+              <img
+                class="icon"
+                width="30px"
+                height="30px"
+                src="https://img.icons8.com/wired/64/artificial-intelligence.png"
+                alt="AI & ML"
+              />
+              <span>AI & ML</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="feedback.html"
+            >
+              <img
+                class="icon"
+                width="30px"
+                height="30px"
+                src="https://img.icons8.com/ios/50/thumbs-up-down.png"
+                alt="Feedback"
+              />
+              <span>Feedback</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="active d-flex align-center fs-14 c-black rad-6 p-10"
+              href="about.html"
+            >
+              <img
+                class="icon"
+                width="30px"
+                height="30px"
+                src="https://img.icons8.com/nolan/64/about.png"
+                alt="About US"
+              />
+              <span>About US</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="team.html"
+            >
+              <img
+                class="icon"
+                width="30px"
+                height="30px"
+                src="https://img.icons8.com/dotty/80/commercial-development-management.png"
+                alt="Team members"
+              />
+              <span>Team members</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content w-full">
+        <!-- Start Head -->
+        <div class="head bg-white p-15 between-flex">
+          <div class="search p-relative">
+            <input class="p-10" type="search" placeholder="Type A Keyword" />
+          </div>
+          <!-- Add this button/link to toggle language -->
+          <button id="languageToggle">ع</button>
+        </div>
+        <!-- End Head -->
+        <h1 class="p-relative">About US</h1>
+        <div class="bg-about d-grid m-20 gap-20">
+          <img class="aboutlogo" id="logoImage" src="imgs/logo.png" alt="" />
+          <h2 class="about" id="aboutHeading">
+            Welcome to
+            <a href="https://ahmed200644.github.io/DALIL" class=""
+              ><span class="bigger">DALIL</span></a
+            >
+          </h2>
+          <h3 class="about" id="aboutText">
+            At
+            <a href="https://ahmed200644.github.io/DALIL" class=""
+              ><span class="bigger">DALIL</span></a
+            >, we are passionate about empowering individuals in our community
+            to learn and thrive in the world of programming. Our journey began
+            with a simple yet profound observation: a growing interest in
+            programming among aspiring learners, but a lack of accessible and
+            structured learning resources. We saw the potential in each
+            individual who aspired to learn programming and realized the
+            transformative impact it could have on their lives and our community
+            as a whole. Driven by our belief that education is the key to
+            progress, we took action to address this need. Our mission is to
+            curate the best free programming learning resources available on the
+            internet and provide them in a centralized hub. By doing so, we aim
+            to remove the overwhelm and distractions that learners often face
+            when navigating the vast sea of online materials. Our platform is
+            meticulously designed to cater to learners of all levels – whether
+            you're a beginner taking your first steps in coding or an
+            experienced programmer seeking to expand your skillset, we've got
+            you covered. Our curated resources span various programming
+            languages and topics, ensuring that you find the right content to
+            fit your learning journey. But our initiative doesn't stop there. We
+            are committed to continuous improvement, and your feedback is
+            invaluable to us. We encourage you to share your experiences,
+            suggestions, and preferences so that we can enhance our platform and
+            better serve your needs. As we move forward, our vision is to create
+            a thriving community of programmers who not only excel in their
+            chosen fields but also actively contribute to the advancement of
+            society through innovation and problem-solving. We envision a future
+            where our community members leverage their programming skills to
+            create solutions that tackle real-world challenges and make a
+            positive impact. At
+            <a href="https://ahmed200644.github.io/DALIL" class=""
+              ><span class="bigger">DALIL</span></a
+            >, we believe in the power of collaboration and inclusivity. We are
+            more than just a website; we are a supportive community that
+            encourages knowledge-sharing, networking, and mutual growth. We
+            welcome partnerships with local programmers, educators, and
+            organizations to create original content and foster an environment
+            of learning and creativity. Thank you for being a part of our
+            journey. Together, we can unlock the potential of programming and
+            build a brighter future for our community. Let's code for change and
+            shape a world where opportunities are limitless. Join us at
+            <a href="https://ahmed200644.github.io/DALIL" class=""
+              ><span class="bigger">DALIL</span></a
+            >
+            and embark on an exciting programming adventure today!
+          </h3>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const userLanguage = navigator.language || navigator.userLanguage;
+        const aboutHeading = document.getElementById("aboutHeading");
+        const aboutText = document.getElementById("aboutText");
+        const logoContainer = document.querySelector(".aboutlogo"); // Select the container div
+        const languageToggle = document.getElementById("languageToggle");
+
+        let isEnglish = true;
+
+        const toggleLanguage = () => {
+          isEnglish = !isEnglish;
+          if (isEnglish) {
+            setEnglishContent();
+            languageToggle.textContent = "ع"; // Change button text to "AR"
+          } else {
+            setArabicContent();
+            languageToggle.textContent = "EN"; // Change button text to "EN"
+          }
+        };
+
+        const setEnglishContent = () => {
+          aboutHeading.innerHTML =
+            'Welcome to <a href="https://ahmed200644.github.io/DALIL" class=""><span class="bigger">DALIL</span></a>';
+          aboutText.innerHTML =
+            'At <a href="https://ahmed200644.github.io/DALIL"><span class="bigger">DALIL</span></a> , we are passionate about empowering individuals in our community to learn and thrive in the world of programming. Our journey began with a simple yet profound observation: a growing interest in programming among aspiring learners, but a lack of accessible and structured learning resources. We saw the potential in each individual who aspired to learn programming and realized the transformative impact it could have on their lives and our community as a whole. Driven by our belief that education is the key to progress, we took action to address this need. Our mission is to curate the best free programming learning resources available on the internet and provide them in a centralized hub. By doing so, we aim to remove the overwhelm and distractions that learners often face when navigating the vast sea of online materials. Our platform is meticulously designed to cater to learners of all levels – whether you`re a beginner taking your first steps in coding or an experienced programmer seeking to expand your skillset, we`ve got you covered. Our curated resources span various programming languages and topics, ensuring that you find the right content to fit your learning journey. But our initiative doesn`t stop there. We are committed to continuous improvement, and your feedback is invaluable to us. We encourage you to share your experiences, suggestions, and preferences so that we can enhance our platform and better serve your needs. As we move forward, our vision is to create a thriving community of programmers who not only excel in their chosen fields but also actively contribute to the advancement of society through innovation and problem-solving. We envision a future where our community members leverage their programming skills to create solutions that tackle real-world challenges and make a positive impact. At <a href="https://ahmed200644.github.io/DALIL" class=""><span class="bigger">DALIL</span></a>, we believe in the power of collaboration and inclusivity. We are more than just a website; we are a supportive community that encourages knowledge-sharing, networking, and mutual growth. We welcome partnerships with local programmers, educators, and organizations to create original content and foster an environment of learning and creativity. Thank you for being a part of our journey. Together, we can unlock the potential of programming and build a brighter future for our community. Let`s code for change and shape a world where opportunities are limitless. Join us at <a href="https://ahmed200644.github.io/DALIL" class=""><span class="bigger">DALIL</span></a> and embark on an exciting programming adventure today!';
+          aboutHeading.style.textAlign = "left";
+          aboutText.style.textAlign = "left";
+          logoImage.src = "imgs/logo.png"; // Set the English logo image
+        };
+
+        const setArabicContent = () => {
+          aboutHeading.innerHTML =
+            'مرحبًا بك في <a href="https://ahmed200644.github.io/DALIL" class=""><span class="bigger">دليل</span></a>';
+          aboutText.innerHTML =
+            'في <a href="https://ahmed200644.github.io/DALIL" class=""><span class="bigger">دليل</span></a>، نحن متحمسون تمكين الأفراد في مجتمعنا للتعلم والازدهار في عالم البرمجة. بدأت رحلتنا برحلة بسيطة لكنها عميقة الملاحظة: الاهتمام المتزايد بالبرمجة بين الطامحين المتعلمين ، ولكن الافتقار إلى التعلم المنظم الذي يسهل الوصول إليه موارد. لقد رأينا الإمكانات في كل فرد يطمح إليه تعلم البرمجة وأدركت التأثير التحويلي الذي يمكن أن تحققه على حياتهم ومجتمعنا ككل. مدفوعة لدينا إيمانًا منا بأن التعليم هو مفتاح التقدم ، اتخذنا إجراءات لتحقيق ذلك تلبية هذه الحاجة. مهمتنا هي رعاية الأفضل مجانًا برمجة موارد التعلم المتاحة على الإنترنت وتقديمها لهم في محور مركزي. من خلال القيام بذلك ، فإننا نهدف إلى إزالة الإرهاق والمشتتات التي غالبًا ما يواجهها المتعلمون عند التنقل البحر الهائل من المواد عبر الإنترنت. منصتنا بدقة مصممة لتلبية احتياجات المتعلمين من جميع المستويات - سواء كنت من مبتدئًا يتخذ خطواتك الأولى في الترميز أو خبيرًا مبرمج يسعى لتوسيع مجموعة مهاراتك ، لقد قمنا بتغطيتك. تغطي مواردنا المنسقة لغات وموضوعات برمجة مختلفة ، ضمان العثور على المحتوى المناسب الذي يناسب تعلمك رحلة. لكن مبادرتنا لا تتوقف عند هذا الحد. ونحن ملتزمون التحسين المستمر ، وتعليقاتك لا تقدر بثمن بالنسبة لنا. نحن نشجعك على مشاركة تجاربك واقتراحاتك و تفضيلات حتى نتمكن من تحسين منصتنا وتقديم خدمة أفضل احتياجاتك. بينما نمضي قدمًا ، تتمثل رؤيتنا في خلق بيئة مزدهرة مجتمع المبرمجين الذين لا يتفوقون فقط في المجالات التي يختارونها ولكن أيضا المساهمة بنشاط في النهوض بالمجتمع من خلال الابتكار وحل المشكلات. نحن نتصور المستقبل حيث لدينا يستفيد أعضاء المجتمع من مهاراتهم في البرمجة للإبداع الحلول التي تتصدى لتحديات العالم الحقيقي وتجعلها إيجابية تأثير. في <a href="https://ahmed200644.github.io/DALIL" class=""><span class="bigger">دليل</span></a>، نؤمن بـ قوة التعاون والشمولية. نحن أكثر من مجرد موقع إلكتروني؛ نحن مجتمع داعم يشجع تبادل المعرفة والتواصل والنمو المتبادل. نرحب شراكات مع المبرمجين والمعلمين والمنظمات المحلية إنشاء محتوى أصلي وتعزيز بيئة التعلم و إِبداع. شكرا لك لكونك جزء من رحلتنا. سويا نحن يمكن أن تطلق العنان لإمكانات البرمجة وبناء مستقبل أكثر إشراقًا لمجتمعنا. دعونا نبرمج من أجل التغيير ونشكل عالمًا فيه الفرص لا حدود لها. انضم إلينا على <a href="https://ahmed200644.github.io/DALIL" class=""><span class="bigger">دليل</span></a> وانطلق في رحلة مثيرة مغامرة البرمجة اليوم!';
+          aboutHeading.style.textAlign = "right";
+          aboutText.style.textAlign = "right";
+          logoImage.src = "imgs/logo.png"; // Set the Arabic logo image
+        };
+
+        languageToggle.addEventListener("click", toggleLanguage);
+      });
+    </script>
+  </body>
+</html>
